@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+*{
+    font-family: 'Tilt Warp', cursive;
+
+}
+
+
+.imageSlider{
+    height: 600px;
+} 
+body{
+    padding-top: 50px;
+}
+.bx  {
+    position: relative;
+    font-size: 25px;
+    color:#343a40;
+    top: -50px;
+    border: 10px solid;
+    background-color: transparent;
+  }
+.p-5{
+    background-color: #f2f2f2;
+  }
+.brace{
+    border: none;
+    border-top:3px solid #343a40;
+    max-width: 250px;
+    margin:25px auto;
+}
+
+#ourteam .bx{
+    position: relative;
+    font-size: 40px;
+    color:#343a40;
+    top: -55px;
+    border: 10px solid #f2f2f2;
+    background-color: transparent;
+
+}
+.row .teamCard img{
+    height: 300px;
+    object-fit: cover; 
+    border: 1px solid black; 
+    border-radius: 5px;
+    margin-top: 15px; 
+    margin-bottom: 15px; 
+    
+}
+
+.row  h5{
+    border: 1px solid #343a40;
+    border-radius: 7px;
+}
+.row .teamCard h5:hover{
+    border-color: red;
+}
+.row .teamCard p:hover{
+    border-color: red;
+}
+.teamCard img:hover{
+    border-color: red;
+    opacity: 0.8;
+}
+.row .part {
+    border: 3px solid #343a40;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    box-shadow: 6px red;
+}
+.photos{
+    background-color: #f2f2f2;
+}
+.figure img:hover{
+  opacity: 0.8;
+}
+.col-md-10 {
+    margin:0 auto;
+}
+.communication input{
+    border: 2px solid blue;
+    box-shadow: 2px 2px 5px #343a40;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.communication textarea{
+    border: 2px solid blue;
+    box-shadow: 2px 2px 5px #343a40;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
